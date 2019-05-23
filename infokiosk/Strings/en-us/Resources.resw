@@ -148,4 +148,8 @@ Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Ma
     <value>Ok</value>
     <comment>What's new prompt message primary button text</comment>
   </data>
+  <data name="Shell_PageTable.Content" xml:space="preserve">
+    <value>PageTable</value>
+    <comment>Navigation view item name for PageTable</comment>
+  </data>
 </root>
