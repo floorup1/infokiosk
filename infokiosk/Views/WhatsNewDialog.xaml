@@ -11,7 +11,6 @@
     <ContentDialog.TitleTemplate>
         <DataTemplate x:DataType="x:String">
             <StackPanel Orientation="Horizontal">
-                <Image Source="ms-appx:///Assets/Images/logo50.png" Width="40" Height="40" />
                 <TextBlock Text="{x:Bind}" Margin="{StaticResource SmallLeftMargin}" VerticalAlignment="Center" />
             </StackPanel>
         </DataTemplate>
