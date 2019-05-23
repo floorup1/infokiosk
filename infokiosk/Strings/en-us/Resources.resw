@@ -117,39 +117,84 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AppDisplayName" xml:space="preserve">
-    <value>infokiosk</value>
-    <comment>Application display name</comment>
-  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>infokiosk</value>
-    <comment>Application description</comment>
+    <comment>Описание приложения</comment>
   </data>
   <data name="Shell_Main.Content" xml:space="preserve">
-    <value>Main</value>
-    <comment>Navigation view item name for Main</comment>
+    <value>Приветствие</value>
+    <comment>Навигационное представление главной страницы</comment>
   </data>
   <data name="WhatsNew_Body.Text" xml:space="preserve">
-    <value>Replace the content of this dialog with whatever content is appropriate to your app.
-You might want to consider lists of bug fixes and new features.
-Don't feel restricted to just text. You can also include images and animations if you wish too.
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</value>
-    <comment>What's new prompt message body</comment>
+    <value>Добавлена информация о государственной пошлине</value>
+    <comment>Тело сообщения "В этом обновлении"</comment>
   </data>
   <data name="WhatsNewDialog.Title" xml:space="preserve">
-    <value>What's new in this version</value>
-    <comment>What's new prompt message title</comment>
+    <value>В этом обновлении</value>
+    <comment>Заголовок окна "В этом обновлении"</comment>
   </data>
   <data name="WhatsNewDialog.PrimaryButtonText" xml:space="preserve">
     <value>Ok</value>
-    <comment>What's new prompt message primary button text</comment>
+    <comment>Текст кнопки окна "В этом обновлении"</comment>
   </data>
   <data name="Shell_PageTable.Content" xml:space="preserve">
-    <value>PageTable</value>
-    <comment>Navigation view item name for PageTable</comment>
+    <value>Загруженность центров</value>
+    <comment>Навигационное представление таблицы загруженности</comment>
+  </data>
+  <data name="ActHeader.Text" xml:space="preserve">
+    <value>Актуальность (дата, время)</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>Информационный киоск</value>
+    <comment>Отображаемое имя приложения</comment>
+  </data>
+  <data name="KolHeader.Text" xml:space="preserve">
+    <value>Количество посетителей, ожидающих приема на государственную регистрацию права собственности</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="LenName.Text" xml:space="preserve">
+    <value>Ленинский</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="PivotItem_Blank.Header" xml:space="preserve">
+    <value>Государственная пошлина</value>
+    <comment>Заголовок для blankpage</comment>
+  </data>
+  <data name="PivotItem_Blank2.Header" xml:space="preserve">
+    <value>Возмещение вреда</value>
+    <comment>Заголовок для blankpage2</comment>
+  </data>
+  <data name="PivotItem_Blank3.Header" xml:space="preserve">
+    <value>Ответственность</value>
+    <comment>Заголовок для blankpage3</comment>
+  </data>
+  <data name="PivotItem_Blank4.Header" xml:space="preserve">
+    <value>Порядок обжалования</value>
+    <comment>Заголовок для blankpage4</comment>
+  </data>
+  <data name="PivotItem_DataGrid.Header" xml:space="preserve">
+    <value>Список услуг</value>
+    <comment>Заголовок для datagridpage</comment>
+  </data>
+  <data name="RaionHeader.Text" xml:space="preserve">
+    <value>Наименование района</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="ZasName.Text" xml:space="preserve">
+    <value>Засвияжский</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="ZavName.Text" xml:space="preserve">
+    <value>Заволжский</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="ZheName.Text" xml:space="preserve">
+    <value>Железнодорожный</value>
+    <comment>Статическое значение в парс-таблице</comment>
+  </data>
+  <data name="Shell_Page01.Content" xml:space="preserve">
+    <value>Государственная пошлина</value>
+    <comment>Текст заголовка раздела "Государственная пошлина"</comment>
   </data>
 </root>

@@ -108,6 +108,9 @@
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Page01Page.xaml.cs">
+      <DependentUpon>Page01Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\PageTablePage.xaml.cs">
       <DependentUpon>PageTablePage.xaml</DependentUpon>
     </Compile>
@@ -153,6 +156,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\Page01Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\PageTablePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -177,6 +184,7 @@
   <ItemGroup>
     <Content Include="Assets\Images\background03.png" />
     <Content Include="Assets\Images\hello.png" />
+    <Content Include="Assets\Images\logo50.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

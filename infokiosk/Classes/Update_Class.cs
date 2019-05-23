@@ -12,7 +12,18 @@ namespace infokiosk.Classes
         public async void Update_Package(string link)
         {
             PackageManager packageManager = new PackageManager();
-            await packageManager.UpdatePackageAsync(new Uri(link), null, DeploymentOptions.ForceApplicationShutdown);
+            try
+            {
+                await packageManager.UpdatePackageAsync(new Uri(link), null, DeploymentOptions.ForceApplicationShutdown);
+            }
+            catch
+            {
+
+            }
+            finally
+            {
+
+            }
         }
     }
 }
