@@ -5,7 +5,7 @@
     <RootNamespace>infokiosk.Core</RootNamespace>
   </PropertyGroup>
 
-   <ItemGroup>
+  <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
 </Project>

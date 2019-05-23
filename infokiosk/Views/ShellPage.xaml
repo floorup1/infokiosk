@@ -27,10 +27,13 @@
             Edit String/en-US/Resources.resw: Add a menu item title for each page
             -->
             <winui:NavigationViewItem x:Uid="Shell_Main" helpers:NavHelper.NavigateTo="views:MainPage" />
-            
-            <winui:NavigationViewItem x:Uid="Shell_PageTable" helpers:NavHelper.NavigateTo="views:PageTablePage" />
+            <winui:NavigationViewItem x:Uid="Shell_Page05" helpers:NavHelper.NavigateTo="views:Page05Page" />
             <winui:NavigationViewItem x:Uid="Shell_Page01" helpers:NavHelper.NavigateTo="views:Page01Page" />
             <winui:NavigationViewItem x:Uid="Shell_Page02" helpers:NavHelper.NavigateTo="views:Page02Page" />
+            <winui:NavigationViewItem x:Uid="Shell_Page03" helpers:NavHelper.NavigateTo="views:Page03Page" />
+            <winui:NavigationViewItem x:Uid="Shell_Page04" helpers:NavHelper.NavigateTo="views:Page04Page" />
+            <winui:NavigationViewItem x:Uid="Shell_PageTable" helpers:NavHelper.NavigateTo="views:PageTablePage" />
+            
         </winui:NavigationView.MenuItems>
         <Grid>
             <Frame x:Name="shellFrame" />
