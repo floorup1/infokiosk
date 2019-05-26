@@ -126,7 +126,7 @@
     <comment>Текст заголовка раздела "Приветствие"</comment>
   </data>
   <data name="WhatsNew_Body.Text" xml:space="preserve">
-    <value>Обновление успешно завершено!                                                                                             Выполнено базовое наполнение информационных разделов киоска.</value>
+    <value>Обновление успешно завершено!                                                                                             Добавлен диалог о подтверждении установки обновления.</value>
     <comment>Тело сообщения "В этом обновлении"</comment>
   </data>
   <data name="WhatsNewDialog.Title" xml:space="preserve">

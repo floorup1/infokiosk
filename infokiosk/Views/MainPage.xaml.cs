@@ -2,7 +2,6 @@
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using HtmlAgilityPack;
 using Windows.UI.Xaml.Controls;
 using Windows.ApplicationModel.Core;
 
@@ -13,7 +12,7 @@ namespace infokiosk.Views
         public MainPage()
         {
             InitializeComponent();
-            Software_Updater();
+            Update();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -31,7 +30,7 @@ namespace infokiosk.Views
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-        private async void Software_Updater()
+        /*private async void Software_Updater()
         {
             string version_xpath = "/html/body/div[2]/div[7]/div[1]/div[2]";
             string updatelink_xpath = "/html/body/div[1]/div[2]/a[3]";
@@ -58,6 +57,35 @@ namespace infokiosk.Views
                 {
  
                 }
+            }
+        }*/
+
+        private async void Update()
+        {
+            Update_Class update_Class = new Update_Class();
+            bool up = await update_Class.Search();
+            if (up == true)
+            {
+                ContentDialog dialog = new ContentDialog();
+                {
+                    dialog.Title = "Обнаружено обновление. Установить?";
+                    dialog.PrimaryButtonText = "Да";
+                    dialog.SecondaryButtonText = "Нет";
+                }
+
+                ContentDialogResult result = await dialog.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    update_Class.Update_Package();
+                }
+                else
+                {
+
+                }
+            }
+            else
+            {
+
             }
         }
     }
