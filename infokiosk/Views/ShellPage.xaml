@@ -33,7 +33,7 @@
             <winui:NavigationViewItem x:Uid="Shell_Page03" helpers:NavHelper.NavigateTo="views:Page03Page" />
             <winui:NavigationViewItem x:Uid="Shell_Page04" helpers:NavHelper.NavigateTo="views:Page04Page" />
             <winui:NavigationViewItem x:Uid="Shell_PageTable" helpers:NavHelper.NavigateTo="views:PageTablePage" />
-            
+ 
         </winui:NavigationView.MenuItems>
         <Grid>
             <Frame x:Name="shellFrame" />
