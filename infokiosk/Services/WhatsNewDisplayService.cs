@@ -7,7 +7,6 @@ using Microsoft.Toolkit.Uwp.Helpers;
 
 namespace infokiosk.Services
 {
-    // For instructions on testing this service see https://github.com/Microsoft/WindowsTemplateStudio/tree/master/docs/features/whats-new-prompt.md
     public static class WhatsNewDisplayService
     {
         private static bool shown = false;
