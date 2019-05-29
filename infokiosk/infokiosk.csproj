@@ -102,6 +102,7 @@
     <Compile Include="Activation\ActivationHandler.cs" />
     <Compile Include="Classes\Parsing_Class.cs" />
     <Compile Include="Classes\Shared_Class.cs" />
+    <Compile Include="Classes\StringsClass.cs" />
     <Compile Include="Classes\Update_Class.cs" />
     <Compile Include="Helpers\NavHelper.cs" />
     <Compile Include="Services\ActivationService.cs" />

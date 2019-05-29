@@ -11,8 +11,6 @@ namespace infokiosk.Views
 {
     public sealed partial class Page05Page : Page, INotifyPropertyChanged
     {
-        // TODO WTS: Change the grid as appropriate to your app, adjust the column definitions on DataGridPage.xaml.
-        // For more details see the documentation at https://docs.microsoft.com/windows/communitytoolkit/controls/datagrid
         public Page05Page()
         {
             InitializeComponent();
@@ -22,7 +20,6 @@ namespace infokiosk.Views
         {
             get
             {
-                // TODO WTS: Replace this with your actual data
                 return ServDataService.GetGridServData();
             }
         }
