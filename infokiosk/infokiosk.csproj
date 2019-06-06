@@ -77,7 +77,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack">
-      <Version>1.11.4</Version>
+      <Version>1.11.7</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.8</Version>
